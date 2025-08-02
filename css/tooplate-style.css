@@ -46,6 +46,9 @@ a:hover {
 .navbar-brand .uil {
   font-size: 40px;
 }
+.center-align {
+      text-align:justify;
+    }
 
 p {
   font-size: 18px;
@@ -288,7 +291,16 @@ b, strong {
   font-size: 30px;
   color: #ffffff;
 }
-
+ button.link-style {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+  }
 .dark-mode {
   background: #0c0c0d;
 }
@@ -308,7 +320,7 @@ b, strong {
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,.dark-mode p,
 .dark-mode .color-mode {
   color: #ffffff;
 }
